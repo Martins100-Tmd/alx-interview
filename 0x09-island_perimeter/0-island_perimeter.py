@@ -8,10 +8,8 @@ def island_perimeter(grid):
     # base case
     if not grid:
         return 0
- 
     M, N = len(grid), len(grid[0])
     count = 0
- 
     # traverse each cell of the matrix
     for i in range(0, M):
         for j in range(0, N):
